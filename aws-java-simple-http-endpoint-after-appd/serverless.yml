@@ -1,0 +1,29 @@
+service: aws-java-simple-http-endpoint
+
+frameworkVersion: ">=1.2.0 <2.0.0"
+
+app: myapp-dev
+tenant: appdynamicsdh
+
+provider:
+  name: aws
+  runtime: java8
+  environment:
+    APPDYNAMICS_ACCOUNT_NAME: aws-sandbox
+    APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY: 9ayhsaoe096t
+    APPDYNAMICS_APPLICATION_NAME: Daves-First-Lambda
+    APPDYNAMICS_CONTROLLER_HOST: aws-sandbox.saas.appdynamics.com
+    APPDYNAMICS_SERVERLESS_API_ENDPOINT: https://pdx-sls-agent-api.saas.appdynamics.com
+    APPDYNAMICS_CONTROLLER_PORT: 443
+    APPDYNAMICS_LOG_LEVEL: DEBUG
+    APPDYNAMICS_TIER_NAME: LambdaT
+package:
+  artifact: target/aws-java-simple-http-endpoint.jar
+
+functions:
+  currentTime:
+    handler: com.serverless.Handler
+    events:
+      - http:
+          path: ping
+          method: post

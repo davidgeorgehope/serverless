@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.appdynamics:lambda-tracer:1.1.1363">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/appdynamics/lambda-tracer/1.1.1363/lambda-tracer-1.1.1363.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/appdynamics/lambda-tracer/1.1.1363/lambda-tracer-1.1.1363-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/appdynamics/lambda-tracer/1.1.1363/lambda-tracer-1.1.1363-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
