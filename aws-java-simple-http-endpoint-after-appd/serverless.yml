@@ -10,7 +10,7 @@ provider:
   runtime: java8
   environment:
     APPDYNAMICS_ACCOUNT_NAME: aws-sandbox
-    APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY: 9ayhsaoe096t
+    APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY: 
     APPDYNAMICS_APPLICATION_NAME: Daves-First-Lambda
     APPDYNAMICS_CONTROLLER_HOST: aws-sandbox.saas.appdynamics.com
     APPDYNAMICS_SERVERLESS_API_ENDPOINT: https://pdx-sls-agent-api.saas.appdynamics.com
